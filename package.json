@@ -1,0 +1,24 @@
+{
+  "name": "markharmon.github.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markharmon/markharmon.github.io.git"
+  },
+  "author": "Mark Harmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markharmon/markharmon.github.io/issues"
+  },
+  "homepage": "https://github.com/markharmon/markharmon.github.io#readme"
+}
