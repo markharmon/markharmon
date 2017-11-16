@@ -8,6 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 html {
+  box-sizing: border-box;
   color: #222;
   font-size: 1em;
   line-height: 1.4; }
@@ -82,22 +83,41 @@ textarea {
 body {
   font-family: Helvetica; }
 
-header {
+.ribbon:before {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #129bcb;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(bottom right, #129bcb, #d0c738);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(bottom right, #129bcb, #d0c738);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(bottom right, #129bcb, #d0c738);
+  /*Fx 3.6-15*/
+  background: radial-gradient(bottom right, #129bcb, #d0c738); }
+
+.header {
   height: 50px;
   background-color: #363535; }
-  header:before {
-    content: "";
-    display: block;
-    height: 5px;
-    background: #129bcb;
-    /* Old Browsers */
-    background: -webkit-radial-gradient(bottom right, #129bcb, #d0c738);
-    /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom right, #129bcb, #d0c738);
-    /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom right, #129bcb, #d0c738);
-    /*Fx 3.6-15*/
-    background: radial-gradient(bottom right, #129bcb, #d0c738); }
+
+.hero {
+  color: #fff;
+  background-color: #fa5329; }
+  .hero .hero__heading {
+    font-size: 3em;
+    margin: 0; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */ }
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */ }
 
 /* ==========================================================================
    Helper classes
@@ -173,17 +193,6 @@ header {
 
 .clearfix:after {
   clear: both; }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
-
-@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
 
 /* ==========================================================================
    Print styles.
