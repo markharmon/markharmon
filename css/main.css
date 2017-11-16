@@ -86,7 +86,8 @@ body {
   background-color: #ff5e00;
   background: linear-gradient(150deg, #FF3300, #ff5e00 50%);
   padding: 0.5em 0.5em 0.5em 0.5em;
-  padding-top: 2em; }
+  padding-top: 2em;
+  padding-bottom: 2em; }
   .hero .hero__heading {
     font-size: 3em;
     margin: 0; }
@@ -94,6 +95,13 @@ body {
     margin: 0;
     margin-left: 1.9em;
     font-family: Courier, monospace; }
+
+.profile-image {
+  display: block;
+  width: 33%;
+  margin: -20px auto 0 auto;
+  padding: 2px;
+  border: 1px solid #fff; }
 
 .section {
   padding: 0.5em 0.5em 0.5em 0.5em; }

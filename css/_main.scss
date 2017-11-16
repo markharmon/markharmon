@@ -16,6 +16,7 @@ body{
     background: linear-gradient(150deg,#FF3300, $primary-color 50%);
     padding: $standard-padding;
     padding-top: $large-padding;
+    padding-bottom: $large-padding;
     
     .hero__heading{
         font-size: 3em;
@@ -26,6 +27,14 @@ body{
         margin-left:1.9em;
         font-family: Courier, monospace;
     }
+}
+
+.profile-image{
+    display: block;
+    width: 33%;
+    margin: -20px auto 0 auto;
+    padding: 2px;
+    border: 1px solid #fff;
 }
 
 .section{
