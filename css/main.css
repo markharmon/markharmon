@@ -130,8 +130,9 @@ body {
   .contact-me .contact-me__contact-list {
     list-style: none; }
     .contact-me .contact-me__contact-list i {
-      font-size: 1.5em;
-      color: #fff; }
+      font-size: 2em;
+      color: #fff;
+      padding-top: 0.5em; }
   .contact-me a {
     color: #ff5e00; }
   .contact-me p {

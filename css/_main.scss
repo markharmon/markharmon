@@ -78,8 +78,9 @@ body{
     .contact-me__contact-list{
         list-style: none;
         i{
-            font-size: 1.5em;
+            font-size: 2em;
             color: #fff;
+            padding-top: $small-padding;
         }
     }
     a{
