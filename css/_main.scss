@@ -1,9 +1,8 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+$primary-color: rgb(250, 83, 41);
+$secondary-color: rgb(250, 83, 41);
 
 body{
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
 }
 
 .ribbon{
@@ -26,9 +25,13 @@ body{
 
 .hero{
     color: #fff;
-    background-color: rgb(250, 83, 41);
+    background-color: $primary-color;
     .hero__heading{
         font-size: 3em;
         margin: 0;
+    }
+    .hero__heading--secondary{
+        margin:0;
+        font-family: Courier, monospace;
     }
 }

@@ -77,11 +77,8 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 body {
-  font-family: Helvetica; }
+  font-family: Helvetica, sans-serif; }
 
 .ribbon:before {
   content: "";
@@ -107,6 +104,9 @@ body {
   .hero .hero__heading {
     font-size: 3em;
     margin: 0; }
+  .hero .hero__heading--secondary {
+    margin: 0;
+    font-family: Courier, monospace; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
