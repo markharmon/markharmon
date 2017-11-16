@@ -20,7 +20,7 @@ $standard-padding: $small-padding $small-padding $small-padding $small-padding;
 }
 
 @mixin my-gradient(){
-    @include linear-gradient(#FF3300, $primary-color);
+    @include linear-gradient(#ff0000, $primary-color);
 }
 
 html{
@@ -77,19 +77,23 @@ body{
     color: #fff;
     .contact-me__contact-list{
         list-style: none;
-        i{
-            font-size: 2em;
-            color: #fff;
-            padding-top: $small-padding;
+        float: left;
+        a{
+            color: $primary-color;
         }
-    }
-    a{
-        color: $primary-color;
     }
     p{
         margin:0;
         font-size: 0.9em;
     }
+    .contact-me__social-link{
+        color: #fff;
+        font-size: 2em;
+        float: left;
+        margin: 0.5em;
+        margin-left: 1em;
+    }
+    clear: both;
 }
 
 .section{

@@ -88,13 +88,13 @@ body {
   line-height: 1;
   color: #fff;
   background-color: #ff5e00;
-  background: #FF3300;
-  background: -moz-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-  background: -webkit-gradient(150deg, #FF3300, #ff5e00 50%);
-  background: -webkit-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-  background: -o-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-  background: -ms-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-  background: linear-gradient(150deg, #FF3300, #ff5e00 50%);
+  background: #ff0000;
+  background: -moz-linear-gradient(150deg, #ff0000, #ff5e00 50%);
+  background: -webkit-gradient(150deg, #ff0000, #ff5e00 50%);
+  background: -webkit-linear-gradient(150deg, #ff0000, #ff5e00 50%);
+  background: -o-linear-gradient(150deg, #ff0000, #ff5e00 50%);
+  background: -ms-linear-gradient(150deg, #ff0000, #ff5e00 50%);
+  background: linear-gradient(150deg, #ff0000, #ff5e00 50%);
   padding: 0.5em 0.5em 0.5em 0.5em;
   padding-top: 2em;
   padding-bottom: 2em; }
@@ -126,18 +126,22 @@ body {
   width: 100%;
   padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: #111111;
-  color: #fff; }
+  color: #fff;
+  clear: both; }
   .contact-me .contact-me__contact-list {
-    list-style: none; }
-    .contact-me .contact-me__contact-list i {
-      font-size: 2em;
-      color: #fff;
-      padding-top: 0.5em; }
-  .contact-me a {
-    color: #ff5e00; }
+    list-style: none;
+    float: left; }
+    .contact-me .contact-me__contact-list a {
+      color: #ff5e00; }
   .contact-me p {
     margin: 0;
     font-size: 0.9em; }
+  .contact-me .contact-me__social-link {
+    color: #fff;
+    font-size: 2em;
+    float: left;
+    margin: 0.5em;
+    margin-left: 1em; }
 
 .section {
   padding: 0.5em 0.5em 0.5em 0.5em; }

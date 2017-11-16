@@ -1,6 +1,6 @@
 (function(){
     function padBodyForContact(){
-        let contactHeight = $('.contact-me.contact-me--static').height();
+        let contactHeight = $('.contact-me').height();
         $('body').css({'padding-bottom': (contactHeight + 20) +  'px'})
     }
 
