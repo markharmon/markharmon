@@ -80,32 +80,22 @@ textarea {
 body {
   font-family: Helvetica, sans-serif; }
 
-.ribbon:before {
-  content: "";
-  display: block;
-  height: 5px;
-  background: #129bcb;
-  /* Old Browsers */
-  background: -webkit-radial-gradient(bottom right, #129bcb, #d0c738);
-  /*Safari 5.1-6*/
-  background: -o-radial-gradient(bottom right, #129bcb, #d0c738);
-  /*Opera 11.1-12*/
-  background: -moz-radial-gradient(bottom right, #129bcb, #d0c738);
-  /*Fx 3.6-15*/
-  background: radial-gradient(bottom right, #129bcb, #d0c738); }
-
 .header {
   height: 50px;
   background-color: #363535; }
 
 .hero {
+  line-height: 1;
   color: #fff;
-  background-color: #fa5329; }
+  background-color: #fa5329;
+  padding-top: 2em;
+  padding-bottom: 0.5em; }
   .hero .hero__heading {
     font-size: 3em;
     margin: 0; }
   .hero .hero__heading--secondary {
     margin: 0;
+    margin-left: 1.9em;
     font-family: Courier, monospace; }
 
 /* ==========================================================================

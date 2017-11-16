@@ -5,33 +5,24 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-.ribbon{
-    &:before{
-        content: "";
-        display: block;
-        height: 5px;
-        background: rgb(18,155,203); /* Old Browsers */   
-        background: -webkit-radial-gradient(bottom right,rgb(18,155,203),rgb(208,199,56)); /*Safari 5.1-6*/   
-        background: -o-radial-gradient(bottom right,rgb(18,155,203),rgb(208,199,56)); /*Opera 11.1-12*/   
-        background: -moz-radial-gradient(bottom right,rgb(18,155,203),rgb(208,199,56)); /*Fx 3.6-15*/   
-        background: radial-gradient(bottom right, rgb(18,155,203), rgb(208,199,56));
-    }
-}
-
 .header{
     height: 50px;
     background-color: rgb(54, 53, 53);
 }
 
 .hero{
+    line-height: 1;
     color: #fff;
     background-color: $primary-color;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
     .hero__heading{
         font-size: 3em;
         margin: 0;
     }
     .hero__heading--secondary{
         margin:0;
+        margin-left:1.9em;
         font-family: Courier, monospace;
     }
 }
