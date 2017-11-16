@@ -116,8 +116,23 @@ body{
         text-align: center;
     }
     .card{
+        background-color: #fff;
+        color: $primary-text-color;
+        margin-left: -$small-padding;
+        margin-right: -$small-padding;
+        padding: $small-padding;
+        .card__heading{
+            margin:0;
+        }
         .card__list{
             padding-left: $large-padding;
+        }
+    }
+    &.section--inverse{
+        background-color: $primary-color;  
+        color: #fff;
+        .section__icon-group{
+            color: #fff;
         }
     }
 }

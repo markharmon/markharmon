@@ -158,8 +158,21 @@ body {
     line-height: 1;
     font-size: 2em;
     text-align: center; }
-  .section .card .card__list {
-    padding-left: 2em; }
+  .section .card {
+    background-color: #fff;
+    color: #555;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 0.5em; }
+    .section .card .card__heading {
+      margin: 0; }
+    .section .card .card__list {
+      padding-left: 2em; }
+  .section.section--inverse {
+    background-color: #ff5e00;
+    color: #fff; }
+    .section.section--inverse .section__icon-group {
+      color: #fff; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
