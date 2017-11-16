@@ -1,5 +1,5 @@
-$primary-color: rgb(250, 83, 41);
-$secondary-color: rgb(250, 83, 41);
+$primary-color: rgb(255, 94, 0);
+$secondary-color: rgb(54, 53, 53);
 
 $large-padding: 2em;
 $small-padding: 0.5em;
@@ -9,15 +9,11 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-.header{
-    height: 50px;
-    background-color: rgb(54, 53, 53);
-}
-
 .hero{
     line-height: 1;
     color: #fff;
     background-color: $primary-color;
+    background: linear-gradient(150deg,#FF3300, $primary-color 50%);
     padding: $standard-padding;
     padding-top: $large-padding;
     
