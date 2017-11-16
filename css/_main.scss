@@ -1,19 +1,42 @@
+$primary-font-family: Helvetica, sans-serif;
+$secondary-font-family: Courier, monospace;
+
 $primary-color: rgb(255, 94, 0);
 $secondary-color: rgb(54, 53, 53);
+$primary-text-color: #555;
 
 $large-padding: 2em;
 $small-padding: 0.5em;
 $standard-padding: $small-padding $small-padding $small-padding $small-padding;
 
+@mixin linear-gradient($colour1, $colour2){
+    background: $colour1;
+    background: -moz-linear-gradient(150deg, $colour1, $colour2 50%);
+    background: -webkit-gradient(150deg, $colour1, $colour2 50%);
+    background: -webkit-linear-gradient(150deg, $colour1, $colour2 50%);
+    background: -o-linear-gradient(150deg, $colour1, $colour2 50%);
+    background: -ms-linear-gradient(150deg, $colour1, $colour2 50%);
+    background: linear-gradient(150deg, $colour1, $colour2 50%);
+}
+
+@mixin my-gradient(){
+    @include linear-gradient(#FF3300, $primary-color);
+}
+
+html,body{
+    height: 100%;
+}
+
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: $primary-font-family;
+    color: $primary-text-color;
 }
 
 .hero{
     line-height: 1;
     color: #fff;
     background-color: $primary-color;
-    background: linear-gradient(150deg,#FF3300, $primary-color 50%);
+    @include my-gradient;
     padding: $standard-padding;
     padding-top: $large-padding;
     padding-bottom: $large-padding;
@@ -25,7 +48,7 @@ body{
     .hero__heading--secondary{
         margin:0;
         margin-left:1.9em;
-        font-family: Courier, monospace;
+        font-family: $secondary-font-family;
     }
 }
 
@@ -37,6 +60,43 @@ body{
     border: 1px solid #fff;
 }
 
+.mission-quote{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.contact-me{ 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: $standard-padding;
+    background-color: #111111;
+    color: #fff;
+    .contact-me__contact-list{
+        list-style: none;
+    }
+    a{
+        color: $primary-color;
+    }
+    p{
+        margin:0;
+        font-size: 0.9em;
+    }
+}
+
 .section{
     padding: $standard-padding;
+    &:before{
+        display: block;
+        content:'';
+        height: 1px;
+        @include my-gradient;
+    }
+    .section__heading{
+        line-height: 1;
+        font-size: 2em;
+    }
 }

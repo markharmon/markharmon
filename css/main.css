@@ -77,13 +77,23 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
+html, body {
+  height: 100%; }
+
 body {
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  color: #555; }
 
 .hero {
   line-height: 1;
   color: #fff;
   background-color: #ff5e00;
+  background: #FF3300;
+  background: -moz-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+  background: -webkit-gradient(150deg, #FF3300, #ff5e00 50%);
+  background: -webkit-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+  background: -o-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+  background: -ms-linear-gradient(150deg, #FF3300, #ff5e00 50%);
   background: linear-gradient(150deg, #FF3300, #ff5e00 50%);
   padding: 0.5em 0.5em 0.5em 0.5em;
   padding-top: 2em;
@@ -103,8 +113,44 @@ body {
   padding: 2px;
   border: 1px solid #fff; }
 
+.mission-quote {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+.contact-me {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: #111111;
+  color: #fff; }
+  .contact-me .contact-me__contact-list {
+    list-style: none; }
+  .contact-me a {
+    color: #ff5e00; }
+  .contact-me p {
+    margin: 0;
+    font-size: 0.9em; }
+
 .section {
   padding: 0.5em 0.5em 0.5em 0.5em; }
+  .section:before {
+    display: block;
+    content: '';
+    height: 1px;
+    background: #FF3300;
+    background: -moz-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+    background: -webkit-gradient(150deg, #FF3300, #ff5e00 50%);
+    background: -webkit-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+    background: -o-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+    background: -ms-linear-gradient(150deg, #FF3300, #ff5e00 50%);
+    background: linear-gradient(150deg, #FF3300, #ff5e00 50%); }
+  .section .section__heading {
+    line-height: 1;
+    font-size: 2em; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
