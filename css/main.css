@@ -77,7 +77,7 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-html, body {
+html {
   height: 100%; }
 
 body {
@@ -129,6 +129,9 @@ body {
   color: #fff; }
   .contact-me .contact-me__contact-list {
     list-style: none; }
+    .contact-me .contact-me__contact-list i {
+      font-size: 1.5em;
+      color: #fff; }
   .contact-me a {
     color: #ff5e00; }
   .contact-me p {
@@ -137,20 +140,21 @@ body {
 
 .section {
   padding: 0.5em 0.5em 0.5em 0.5em; }
-  .section:before {
+  .section .section__icon-group {
     display: block;
-    content: '';
-    height: 1px;
-    background: #FF3300;
-    background: -moz-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-    background: -webkit-gradient(150deg, #FF3300, #ff5e00 50%);
-    background: -webkit-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-    background: -o-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-    background: -ms-linear-gradient(150deg, #FF3300, #ff5e00 50%);
-    background: linear-gradient(150deg, #FF3300, #ff5e00 50%); }
+    font-size: 2em;
+    margin: 0 auto;
+    width: fit-content;
+    color: #ff5e00; }
+    .section .section__icon-group i {
+      margin-left: 5px;
+      margin-right: 5px; }
   .section .section__heading {
     line-height: 1;
-    font-size: 2em; }
+    font-size: 2em;
+    text-align: center; }
+  .section .card .card__list {
+    padding-left: 2em; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

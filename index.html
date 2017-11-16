@@ -12,6 +12,7 @@
       <!-- Place favicon.ico in the root directory -->
 
       <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
       <link rel="stylesheet" href="css/main.css">
     </head>
   <body>
@@ -33,10 +34,20 @@
         <ul class="contact-me__contact-list">
             <li><a href="mailto:mark.harmon@outlook.com">mark.harmon@outlook.com</a></li>
             <li><a href="tel:+447894854205">+447894854205</a></li>
+            <li><a href="www.linkedin.com/in/harmonm"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
         </ul>        
     </section>
         
     <section class="section"> 
+        <div class="section__icon-group">
+            <i class="fa fa-keyboard-o" aria-hidden="true"></i> 
+            <i class="fa fa-code" aria-hidden="true"></i> 
+            <i class="fa fa-css3" aria-hidden="true"></i>
+            <i class="fa fa-database" aria-hidden="true"></i>
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <i class="fa fa-windows" aria-hidden="true"></i>
+            <i class="fa fa-html5" aria-hidden="true"></i>
+        </div>
         <h2 class="section__heading">Skills &amp; Technologies</h2>  
 
         <div class="card">
@@ -51,38 +62,55 @@
             </ul>
         </div>
 
-        <h3>Frontend</h3>
-        <ul>
-            <li>javascript, Angular/AngularJS, KnockoutJS</li>
-            <li>css/less/scss</li>
-            <li>npm, webpack</li>
-        </ul>
+        
+        <div class="card">
+            <h3 class="card__heading">Frontend</h3>
+            <ul class="card__list">
+                <li>javascript, Angular/AngularJS, KnockoutJS</li>
+                <li>css/less/scss</li>
+                <li>npm, webpack</li>
+            </ul>
+        </div>
 
-        <h3>Mobile</h3>
-        <ul>
-            <li>Xamarin/Mono</li>
-            <li>Cordova/PhoneGap</li>
-        </ul>
+        <div class="card">
+            <h3 class="card__heading">Mobile</h3>
+            <ul class="card__list">
+                <li>Xamarin/Mono</li>
+                <li>Cordova/PhoneGap</li>
+            </ul>
+        </div>
 
-        <h3>Dev Ops</h3>
-        <ul>
-            <li>Azure</li>
-            <li>AWS</li>
-            <li>Teamcity</li>
-            <li>Octopus</li>
-            <li>CodeDeploy</li>
-        </ul>
+        <div class="card">
+            <h3 class="card__heading">Dev Ops</h3>
+            <ul class="card__list">
+                <li>Azure</li>
+                <li>AWS</li>
+                <li>Teamcity</li>
+                <li>Octopus</li>
+                <li>CodeDeploy</li>
+            </ul>
+        </div>
     </section>
 
-    <section class="section">      
-        <h2>Employment</h2>        
+    <section class="section">    
+        <div class="section__icon-group">
+            <i class="fa fa-building" aria-hidden="true"></i>              
+            <i class="section__icon fa fa-black-tie" aria-hidden="true"></i>  
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+        </div>
+        <h2 class="section__heading">Employment</h2>   
 
-        <h3>Universal Music</h3>
-        <p>Senior developer, working on bespoke systems. Music catalogue and search applications as well as cms and content delivery.</p>
+        <div class="card">
+            <h3 class="card__heading">Universal Music</h3>
+            <p>Senior developer, working on bespoke systems. Music catalogue and search applications as well as cms and content delivery.</p>
+        </div>
+ 
 
-        <h3>Techdept</h3>
-        <p>As a senior/lead developer I was involved with all aspects of a project lifecycle from acquisition to delivery.</p>
-                
+        <div class="card">
+            <h3 class="card__heading">Techdept</h3>
+            <p>As a senior/lead developer I was involved with all aspects of a project lifecycle from acquisition to delivery.</p>   
+        </div>
+           
         <h4>SlimFast Mobile App - Lead Developer</h4>
         <p>
             I led the development of an Apache Cordova, AngularJS and ASP.NET Web API based app for iPhone/iPad and Android devices. 
@@ -100,24 +128,36 @@
             the application content was centrally managed via a Content Management System (Umbraco). 
             The project involved time on location to configure the devices and support deployment.</p>   
 
-        <h3>Irwin Mitchell Solicitors</h3>
-        <p>I was employed by Irwin Mitchell Solicitors on a 12th month contract basis, in a senior role, to work on a bespoke case management system and to support junior and graduate developers. The workflow application was a .Net WCF desktop application.</p>
+        <div class="card">
+            <h3 class="card__heading">Irwin Mitchell Solicitors</h3>
+            <p>I was employed by Irwin Mitchell Solicitors on a 12th month contract basis, in a senior role, to work on a bespoke case management system and to support junior and graduate developers. The workflow application was a .Net WCF desktop application.</p>
+        </div>    
 
-        <h3>Ventura (now Capita)</h3>
-        <p>I spent 5 years working at Ventura. Ventura (now Capita) is an international contact center outsourcing provider. The IT department consisted of around a hundred staff members supporting contact center agent applications, telephony systems and IVR solutions. I worked on contact center solutions for many major clients including, O2, Google, VW, Department for Work and Pensions, Northern Rock and Orange.
-        </p>
+        <div class="card">
+            <h3 class="card__heading">Ventura (now Capita)</h3>
+            <p>I spent 5 years working at Ventura. Ventura (now Capita) is an international contact center outsourcing provider. The IT department consisted of around a hundred staff members supporting contact center agent applications, telephony systems and IVR solutions. I worked on contact center solutions for many major clients including, O2, Google, VW, Department for Work and Pensions, Northern Rock and Orange.
+                </p>
+        </div>    
 
         <h4>Automated Dialler Interface Application</h4>
         <p>This was an ASP.NET MVC based application used to provide call center agents with an interface to an AVAYA Proactive Contact System (Automated Dialler) and providing agents with the nescassary customer data from an Oracle database. The app was developed using a test driven approach and so was fully supported by automated tests.</p>
         <h4>IVR</h4>
         <p>I was involved in developing automated telephone systems using Edify and creating custom C# .Net plugins via Edify’s telephony API.
         </p>
+
         <h4>Bulk Scanning</h4>
         <p>One of my responsibilities was to support 3rd party bulk scanning software and hardware and to create custom applications using 3rd party scanner APIs.The scanners were used to scan large amounts of confidential data and store that data for specified amounts of time according to legal requirements.</p>    
     </section>
 
     <section class="section">
-        <h2>When I'm not developing</h2>
+        <div class="section__icon-group">
+            <i class="fa fa-bicycle" aria-hidden="true"></i>
+            <i class="fa fa-gamepad" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+            <i class="fa fa-ticket" aria-hidden="true"></i>
+        </div> 
+        
+        <h2 class="section__heading">When I'm not developing</h2>
         <p>I have a very keen interest in martial arts and have been studying them for around 10 years, I have recently been on trip to Japan to meet and train with martial arts students from around the world. I like to keep fit by playing 7-a-side football and swimming. My other interests include cooking, learning to surf, archery and supporting Sheffield Wednesday.</p>
     </section>
 

@@ -23,7 +23,7 @@ $standard-padding: $small-padding $small-padding $small-padding $small-padding;
     @include linear-gradient(#FF3300, $primary-color);
 }
 
-html,body{
+html{
     height: 100%;
 }
 
@@ -77,6 +77,10 @@ body{
     color: #fff;
     .contact-me__contact-list{
         list-style: none;
+        i{
+            font-size: 1.5em;
+            color: #fff;
+        }
     }
     a{
         color: $primary-color;
@@ -88,15 +92,28 @@ body{
 }
 
 .section{
-    padding: $standard-padding;
-    &:before{
+    padding: $standard-padding; 
+    
+    .section__icon-group{
         display: block;
-        content:'';
-        height: 1px;
-        @include my-gradient;
+        font-size: 2em;
+        margin: 0 auto;
+        width: fit-content;        
+        color: $primary-color;   
+        i{
+          margin-left:5px;  
+          margin-right:5px;  
+        } 
     }
     .section__heading{
         line-height: 1;
         font-size: 2em;
+        text-align: center;
+    }
+    .card{
+        .card__list{
+            padding-left: $large-padding;
+        }
     }
 }
+
