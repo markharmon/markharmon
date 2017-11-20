@@ -82,19 +82,19 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-  color: #555; }
+  color: #222; }
 
 .hero {
   line-height: 1;
-  color: #fff;
-  background-color: #ff5e00;
-  background: #ff0000;
-  background: -moz-linear-gradient(150deg, #ff0000, #ff5e00 50%);
-  background: -webkit-gradient(150deg, #ff0000, #ff5e00 50%);
-  background: -webkit-linear-gradient(150deg, #ff0000, #ff5e00 50%);
-  background: -o-linear-gradient(150deg, #ff0000, #ff5e00 50%);
-  background: -ms-linear-gradient(150deg, #ff0000, #ff5e00 50%);
-  background: linear-gradient(150deg, #ff0000, #ff5e00 50%);
+  color: #eee;
+  background-color: #FF5F00;
+  background: #EF002A;
+  background: -moz-linear-gradient(150deg, #EF002A, #FF5F00 50%);
+  background: -webkit-gradient(150deg, #EF002A, #FF5F00 50%);
+  background: -webkit-linear-gradient(150deg, #EF002A, #FF5F00 50%);
+  background: -o-linear-gradient(150deg, #EF002A, #FF5F00 50%);
+  background: -ms-linear-gradient(150deg, #EF002A, #FF5F00 50%);
+  background: linear-gradient(150deg, #EF002A, #FF5F00 50%);
   padding: 0.5em 0.5em 0.5em 0.5em;
   padding-top: 2em;
   padding-bottom: 2em; }
@@ -111,33 +111,34 @@ body {
   width: 33%;
   margin: -20px auto 0 auto;
   padding: 2px;
-  border: 1px solid #fff; }
+  border: 1px solid #eee; }
 
 .mission-quote {
   text-align: center;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-top: 3em;
   margin-bottom: 3em; }
 
 .contact-me {
+  z-index: 1;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 0.5em 0.5em 0.5em 0.5em;
-  background-color: #111111;
-  color: #fff;
+  background-color: #111;
+  color: #eee;
   clear: both; }
   .contact-me .contact-me__contact-list {
     list-style: none;
     float: left; }
     .contact-me .contact-me__contact-list a {
-      color: #ff5e00; }
+      color: #FF5F00; }
   .contact-me p {
     margin: 0;
     font-size: 0.9em; }
   .contact-me .contact-me__social-link {
-    color: #fff;
+    color: #eee;
     font-size: 2em;
     float: left;
     margin: 0.5em;
@@ -149,7 +150,7 @@ body {
     display: block;
     font-size: 2em;
     margin: 0 auto;
-    color: #ff5e00;
+    color: #FF5F00;
     text-align: center; }
     .section .section__icon-group i {
       margin-left: 5px;
@@ -159,20 +160,42 @@ body {
     font-size: 2em;
     text-align: center; }
   .section .card {
-    background-color: #fff;
-    color: #555;
     margin-left: -0.5em;
     margin-right: -0.5em;
     padding: 0.5em; }
     .section .card .card__heading {
       margin: 0; }
+      .section .card .card__heading span {
+        font-size: 0.8em;
+        font-weight: normal; }
     .section .card .card__list {
       padding-left: 2em; }
-  .section.section--inverse {
-    background-color: #ff5e00;
-    color: #fff; }
-    .section.section--inverse .section__icon-group {
-      color: #fff; }
+  .section .section__company-logo {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 22%;
+    padding: 5%; }
+    .section .section__company-logo.section__company-logo--wide {
+      width: 38%; }
+    .section .section__company-logo.section__company-logo--microsoft, .section .section__company-logo.section__company-logo--t-mob, .section .section__company-logo.section__company-logo--dwp, .section .section__company-logo.section__company-logo--irwin-mitchell {
+      padding-top: 10%;
+      padding-bottom: 20%; }
+  .section.section--primary {
+    background-color: #FF5F00;
+    color: #eee; }
+    .section.section--primary .section__icon-group {
+      color: #eee; }
+  .section.section--secondary {
+    background-color: #FF9E00;
+    color: #eee; }
+    .section.section--secondary .section__icon-group {
+      color: #eee; }
+  .section.section--tertiary {
+    background-color: #EF002A;
+    color: #eee; }
+    .section.section--tertiary .section__icon-group {
+      color: #eee; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

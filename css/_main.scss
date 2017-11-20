@@ -1,9 +1,29 @@
 $primary-font-family: Helvetica, sans-serif;
 $secondary-font-family: Courier, monospace;
 
-$primary-color: rgb(255, 94, 0);
-$secondary-color: rgb(54, 53, 53);
-$primary-text-color: #555;
+$black: #222;
+$white: #eee;
+
+$primary-color-darker: #9B3A00;
+$primary-color-dark: #C64A00;
+$primary-color: #FF5F00;
+$primary-color-light: #FF8339;
+$primary-color-lighter: #FF9E64;
+
+$secondary-color-darker: #9B6000;
+$secondary-color-dark: #C67A00;
+$secondary-color: #FF9E00;
+$secondary-color-light: #FFB339;
+$secondary-color-lighter: #FFC464;
+
+$tertiary-color-darker: #92001A;
+$tertiary-color-dark: #B90021;
+$tertiary-color: #EF002A;
+$tertiary-color-light: #F03657;
+$tertiary-color-lighter: #F35F79;
+
+
+$primary-text-color: $black;
 
 $large-padding: 2em;
 $small-padding: 0.5em;
@@ -20,7 +40,7 @@ $standard-padding: $small-padding $small-padding $small-padding $small-padding;
 }
 
 @mixin my-gradient(){
-    @include linear-gradient(#ff0000, $primary-color);
+    @include linear-gradient($tertiary-color, $primary-color);
 }
 
 html{
@@ -34,7 +54,7 @@ body{
 
 .hero{
     line-height: 1;
-    color: #fff;
+    color: $white;
     background-color: $primary-color;
     @include my-gradient;
     padding: $standard-padding;
@@ -57,24 +77,25 @@ body{
     width: 33%;
     margin: -20px auto 0 auto;
     padding: 2px;
-    border: 1px solid #fff;
+    border: 1px solid $white;
 }
 
 .mission-quote{
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3em;
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
 .contact-me{ 
+    z-index: 1;
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: $standard-padding;
-    background-color: #111111;
-    color: #fff;
+    background-color: #111;
+    color: $white;
     .contact-me__contact-list{
         list-style: none;
         float: left;
@@ -87,7 +108,7 @@ body{
         font-size: 0.9em;
     }
     .contact-me__social-link{
-        color: #fff;
+        color: $white;
         font-size: 2em;
         float: left;
         margin: 0.5em;
@@ -116,23 +137,55 @@ body{
         text-align: center;
     }
     .card{
-        background-color: #fff;
-        color: $primary-text-color;
         margin-left: -$small-padding;
         margin-right: -$small-padding;
         padding: $small-padding;
         .card__heading{
             margin:0;
+            span{
+                font-size: 0.8em;
+                font-weight: normal;
+            }
         }
         .card__list{
             padding-left: $large-padding;
         }
     }
-    &.section--inverse{
+    .section__company-logo{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        width: 22%;
+        padding: 5%;
+        &.section__company-logo--wide{
+            width: 38%;
+        }
+        &.section__company-logo--microsoft,
+        &.section__company-logo--t-mob,
+        &.section__company-logo--dwp,
+        &.section__company-logo--irwin-mitchell,{
+            padding-top:10%;
+            padding-bottom:20%;
+        }
+    }
+    &.section--primary{
         background-color: $primary-color;  
-        color: #fff;
+        color: $white;
         .section__icon-group{
-            color: #fff;
+            color: $white;
+        }
+    }
+    &.section--secondary{
+        background-color: $secondary-color;  
+        color: $white;
+        .section__icon-group{
+            color: $white;
+        }
+    }
+    &.section--tertiary{
+        background-color: $tertiary-color;  
+        color: $white;
+        .section__icon-group{
+            color: $white;
         }
     }
 }
