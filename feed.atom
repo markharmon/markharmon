@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<link rel="self" href="http://markharmon.github.io/" />
+	<id>http://markharmon.github.io/</id>
+	<title>Mark Harmon</title>
+	<rights>2018</rights>
+	<updated>2018-01-26T18:54:40Z</updated>
+	<logo>http://markharmon.github.io/assets/images/mark-harmon-lanikai-beach.jpeg</logo>
+	<entry>
+		<link href="http://markharmon.github.io/posts/first-post" />
+		<link rel="enclosure" type="image" href="http://markharmon.github.io/assets/images/agile-estimating.jpg" />
+		<id>http://markharmon.github.io/posts/first-post</id>
+		<title>Agile Estimating</title>
+		<updated>2017-01-26T00:00:00Z</updated>
+		<content>&lt;p&gt;This is my first post!&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This is my first post!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://markharmon.github.io/posts/best-burgers-in-london" />
+		<link rel="enclosure" type="image" href="http://markharmon.github.io/assets/images/burgers.jpg" />
+		<id>http://markharmon.github.io/posts/best-burgers-in-london</id>
+		<title>I'm Ranking All the Burgers I Eat in London</title>
+		<updated>2017-01-26T00:00:00Z</updated>
+		<content>&lt;p&gt;Recently I've been sampling some of the burgers London has to offer. I decided it might be nice to rank them all in order of my personal preference. I'll keep the list updated as I eat more burgers. For now I've just hit the chains:&lt;/p&gt;
+&lt;h2 id="the-mark-harmon-burgers-in-london-league-table"&gt;The Mark Harmon Burgers in London League Table&lt;/h2&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Rank&lt;/th&gt;
+&lt;th&gt;Burger Place&lt;/th&gt;
+&lt;th&gt;Location&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Price&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Honest Burgers&lt;/td&gt;
+&lt;td&gt;Hammersmith&lt;/td&gt;
+&lt;td&gt;This burger was delicious, pink in the middle and very tasty. The rosemary fries are considered by Honest to be mandatory for the experience. I disagree, this burger doesn't need the fries.&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;&lt;em&gt;£9.75&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Shake Shack&lt;/td&gt;
+&lt;td&gt;Tottenham Court Road&lt;/td&gt;
+&lt;td&gt;My first impression was that this burger was a little small, still served pink and tasty though!&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;&lt;em&gt;£5.50&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Five Guys&lt;/td&gt;
+&lt;td&gt;Westfield Shepherds Bush&lt;/td&gt;
+&lt;td&gt;A very nice burger, big and juicy. I think my only issue is that it's a little overcooked for my taste and the bun could be firmer, it seemed a little floppy.&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;&lt;em&gt;£8.00&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;4&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Byron&lt;/td&gt;
+&lt;td&gt;Hammersmith&lt;/td&gt;
+&lt;td&gt;I had heard good things about this burger going in so had high expectations. I was actually a little dissapointed. It's a decent burger but was a little dry.&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;&lt;em&gt;£10.00&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+		<summary>&lt;p&gt;Recently I've been sampling some of the burgers London has to offer. I decided it might be nice to rank them all in order of my personal preference. I'll keep the list updated as I eat more burgers. For now I've just hit the chains:&lt;/p&gt;</summary>
+	</entry>
+</feed>
