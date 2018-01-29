@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-        <title>Mark Harmon - agile</title>
+        <title>Mark Harmon - Mark Harmon</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
@@ -28,9 +28,9 @@
         <meta name="msapplication-tooltip" content="Mark Harmon" />
         <meta name="msapplication-starturl" content="/" />
 
-        <meta property="og:title" content="Mark Harmon - agile" />
+        <meta property="og:title" content="Mark Harmon - Mark Harmon" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://markharmon.github.io/tags/agile" />
+        <meta property="og:url" content="http://markharmon.github.io/" />
         <!-- TODO: More social graph meta tags -->
 
         <script src="/assets/js/jquery.min.js"></script>
@@ -92,7 +92,7 @@
                                 <div class="row">
                                         <div class="col-md-12">
 <div class="site-heading">
-    <h1>agile</h1>
+    <h1>Mark Harmon</h1>
 </div>                                            </div>
                                 </div>
                         </div>
@@ -102,34 +102,7 @@
                 <div class="container">
                         <div class="row">
                                 <div id="content" class="col-md-12">
-                                        <div class="container-sm-height">
-    <div class="row row-sm-height">
-        <div class="col-sm-8 right-border col-sm-height">
-                    <div class="post-list">
-            <a href="/posts/first-post">
-                <h3 class="post-title">Agile Estimating</h3>
-            </a>
-            <p class="post-meta">Posted on 26 January 2017</p>      
-        </div>   
-
-
-            <nav>
-                <ul class="pager">
-                    <li class="previous">                
-                    </li>
-                    <li class="next">
-                    </li>
-                </ul>
-            </nav>
-            <hr class="visible-xs-block" />
-        </div>
-		
-        <div class="col-sm-4 col-sm-height">
-                <a role="button" href="/tags/agile" class="btn btn-primary btn-xs">agile (1)</a>
-                <a role="button" href="/tags/food" class="btn btn-default btn-xs">food (1)</a>
-        </div>
-    </div>
-</div>
+                                        
                                 </div>
                         </div>
                 </div>
