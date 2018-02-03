@@ -4,24 +4,14 @@
 	<id>http://markharmon.github.io/</id>
 	<title>Mark Harmon</title>
 	<rights>2018</rights>
-	<updated>2018-01-29T22:49:38Z</updated>
+	<updated>2018-02-03T17:21:26Z</updated>
 	<logo>http://markharmon.github.io/assets/images/mark-harmon-lanikai-beach.jpeg</logo>
-	<entry>
-		<link href="http://markharmon.github.io/posts/first-post" />
-		<link rel="enclosure" type="image" href="http://markharmon.github.io/assets/images/agile-estimating.jpg" />
-		<id>http://markharmon.github.io/posts/first-post</id>
-		<title>Agile Estimating</title>
-		<updated>2017-01-26T00:00:00Z</updated>
-		<content>&lt;p&gt;This is my first post!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is my first post!&lt;/p&gt;</summary>
-	</entry>
 	<entry>
 		<link href="http://markharmon.github.io/posts/best-burgers-in-london" />
 		<link rel="enclosure" type="image" href="http://markharmon.github.io/assets/images/burgers.jpg" />
 		<id>http://markharmon.github.io/posts/best-burgers-in-london</id>
 		<title>I'm Ranking All the Burgers I Eat in London</title>
-		<updated>2017-01-26T00:00:00Z</updated>
+		<updated>2018-01-06T00:00:00Z</updated>
 		<content>&lt;p&gt;Recently I've been sampling some of the burgers London has to offer. I decided it might be nice to rank them all in order of my personal preference. I'll keep the list updated as I eat more burgers. For now I've just hit the chains:&lt;/p&gt;
 &lt;h2 id="the-mark-harmon-burgers-in-london-league-table"&gt;The Mark Harmon Burgers in London League Table&lt;/h2&gt;
 &lt;table class="table"&gt;
